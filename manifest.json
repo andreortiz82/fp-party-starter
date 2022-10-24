@@ -1,0 +1,10 @@
+{
+  "name": "Party Starter",
+  "id": "1166217552138747228",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "ui.html"
+}

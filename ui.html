@@ -1,0 +1,31 @@
+<div>
+  <button id="create-pages">Create pages</button>
+  <div>
+    <select id="theme-name">
+      <option value="site-light">Site Light</option>
+      <option value="site-dark">Site Dark</option>
+      <option value="sponsor-light">Sponsor Light</option>
+      <option value="sponsor-dark">Sponsor Dark</option>
+      <option value="admin-light">Admin Light</option>
+      <option value="admin-dark">Admin Dark</option>
+    </select>
+    <button id="choose-theme">Choose theme</button>
+  </div>
+
+  <div>
+    <textarea id="json">
+      </textarea>
+  </div>
+</div>
+
+<script>
+
+  document.getElementById('create-pages').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'create-pages' } }, '*')
+  }
+
+  document.getElementById('cancel').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+  }
+
+</script>
