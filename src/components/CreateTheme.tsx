@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Themes } from "../colors";
 const CreateTheme = () => {
-    const [theme, setTheme] = React.useState('')
+    const [theme, setTheme] = React.useState('all')
 
     const chooseTheme = (event) => {
         setTheme(event.target.value)

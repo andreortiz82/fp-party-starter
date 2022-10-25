@@ -1,4 +1,4 @@
-figma.showUI(__html__, { themeColors: true, height: 400 });
+figma.showUI(__html__, { height: 400 });
 const buildPages = () => {
   const pages = [
     "Cover",

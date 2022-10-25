@@ -19,12 +19,10 @@ import "./ui.css";
 declare function require(path: string): any;
 
 function App() {
-
     return (
         <div>
             <CreatePages />
             <CreateTheme />
-
             <div>
                 <textarea id="json">
                 </textarea>
